@@ -64,7 +64,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 
 预览的效果：
 
-![image-20250423103633851](EX2_1_picture\image-20250423103633851.png)
+![image-20250423103633851](EX2_1_picture/image-20250423103633851.png)
 
 #### 修饰符
 
@@ -86,7 +86,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 }
 ```
 
-![QQ_1745376514473](EX2_1_picture\QQ_1745376514473.png)
+![QQ_1745376514473](EX2_1_picture/QQ_1745376514473.png)
 
 #### 重复使用可组合项
 
@@ -136,7 +136,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 }
 ```
 
-![image-20250423105701651](EX2_1_picture\image-20250423105701651.png)
+![image-20250423105701651](EX2_1_picture/image-20250423105701651.png)
 
 ### Compose 和 Kotlin
 
@@ -159,7 +159,7 @@ fun MyApp(
 
 使用循环向Column中添加元素。效果如下：
 
-<img src="EX2_1_picture\image-20250423111008816.png" alt="image-20250423111008816" style="zoom: 33%;" />
+<img src="EX2_1_picture/image-20250423111008816.png" alt="image-20250423111008816" style="zoom: 33%;" />
 
 当前尚未设置可组合项的尺寸，也未对可组合项的大小添加任何限制，因此每一行仅占用可能的最小空间，预览时的效果也是如此。更改预览效果，以模拟小屏幕手机的常见宽度 320dp。按如下所示向 @Preview 注解添加 widthDp 参数：
 
@@ -173,7 +173,7 @@ fun GreetingPreview() {
 }
 ```
 
-<img src="EX2_1_picture\image-20250423111132591.png" alt="image-20250423111132591" style="zoom: 33%;" />
+<img src="EX2_1_picture/image-20250423111132591.png" alt="image-20250423111132591" style="zoom: 33%;" />
 
 接下来为修饰符（modifier）添加更多的属性，来查看显示效果。使用 fillMaxWidth 和 padding 修饰符复制以下布局。注意更改工程中的代码，使用以下代码修改Compose函数。
 
@@ -207,7 +207,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 
 ```
 
-![image-20250423111402065](EX2_1_picture\image-20250423111402065.png)
+![image-20250423111402065](EX2_1_picture/image-20250423111402065.png)
 
 ### 添加按钮
 
@@ -237,7 +237,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 }
 ```
 
-![image-20250423111432592](EX2_1_picture\image-20250423111432592.png)
+![image-20250423111432592](EX2_1_picture/image-20250423111432592.png)
 
 ## Compose中的状态（State）
 
@@ -272,8 +272,8 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 }
 ```
 
-![image-20250423111627757](EX2_1_picture\image-20250423111627757.png)
+![image-20250423111627757](EX2_1_picture/image-20250423111627757.png)
 
-![image-20250423111637763](EX2_1_picture\image-20250423111637763.png)
+![image-20250423111637763](EX2_1_picture/image-20250423111637763.png)
 
-![image-20250423111646167](EX2_1_picture\image-20250423111646167.png)
+![image-20250423111646167](EX2_1_picture/image-20250423111646167.png)
