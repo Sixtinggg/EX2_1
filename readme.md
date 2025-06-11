@@ -26,7 +26,7 @@
 
 1. 项目名称设为 `My A`pplication`。语言选择 Kotlin，点击 **Finish** 完成创建。经过编译生成之后，可以看到如下页面：
 
-![image-20250423102303665](EX2_1_picture\image-20250423102303665.png)
+![image-20250423102303665](EX2_1_picture/image-20250423102303665.png)
 
 ### 任务二：Compose布局实践
 
@@ -34,7 +34,7 @@
 
 Jetpack Compose 使用 `@Composable` 注解标记 UI 函数，这些函数可以直接在代码中定义界面，而不依赖 XML。使用 `setContent {}` 可在 `Activity` 中设置界面内容。通过 `@Preview` 注解可以在 Android Studio 中进行 UI 预览。
 
-![image-20250423102847525](EX2_1_picture\image-20250423102847525.png)
+![image-20250423102847525](EX2_1_picture/image-20250423102847525.png)
 
 ---
 
