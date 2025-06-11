@@ -22,7 +22,7 @@
 
 1. 打开 Android Studio，点击 **New Project**。选择 **Empty Activity** 模板。
 
-![image-20250423102203686](EX2_1_picture\image-20250423102203686.png)
+![image-20250423102203686](EX2_1_picture/image-20250423102203686.png)
 
 1. 项目名称设为 `My A`pplication`。语言选择 Kotlin，点击 **Finish** 完成创建。经过编译生成之后，可以看到如下页面：
 
